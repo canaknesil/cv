@@ -25,7 +25,7 @@
 
 
 * CV -- Can Aknesil
-28 October 2026
+4 November 2026
 
 Kungliga Tekniska H\ouml{}gskolan, SE-100 44 STOCKHOLM\\
 aknesil at kth.se\\
@@ -177,6 +177,12 @@ Course: EP2780 Digital Forensics and Incident Response
 - Siyao Liu /(Spring 2026)/\\
   (In addition to the main and co-supervisors)
   
+** PEDAGOGICAL TRAINING
+
+[[https://www.kth.se/en][KTH (Royal Institute of Technology)]], Stockholm\\
+- FLH3000 Basic Communication and Teaching, 3 credits
+- LH207V Doctoral Supervision, 3 credits (ongoing)
+
 ** PROFESSIONAL SKILLS
 
 Hardware security\\
