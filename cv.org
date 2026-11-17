@@ -9,6 +9,7 @@
 #+LATEX_HEADER: \usepackage[left=1.0in,right=1.0in,top=1.0in,bottom=1.5in]{geometry}
 #+LATEX_HEADER: \usepackage{titlesec}
 #+LATEX_HEADER: \titleformat{\section}{\LARGE\sffamily\bfseries}{\thesection}{0.5em}{}[{\titlerule[0.4pt]}]
+#+LATEX_HEADER: \titlespacing*{\section}{0pt}{2ex}{1ex}
 #+LATEX_HEADER: \titleformat{\subsection}{\Large\sffamily\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
 #+LATEX_HEADER: \titleformat{\subsubsection}{\large\sffamily\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
 #+LATEX_HEADER: \usepackage{xcolor}
@@ -34,9 +35,9 @@
 
 Kungliga Tekniska H\ouml{}gskolan, SE-100 44 STOCKHOLM\\
 [[mailto:aknesil@kth.se][aknesil@kth.se]]\\
-[[https://www.canaknesil.com][www.canaknesil.com]]\\
 [[https://github.com/canaknesil][github.com/canaknesil]]\\
-[[https://www.linkedin.com/in/can-aknesil-phd-831507a3/][linkedin.com/in/can-aknesil-phd-831507a3]]
+[[https://www.linkedin.com/in/can-aknesil-phd-831507a3/][linkedin.com/in/can-aknesil-phd-831507a3]]\\
+[[https://www.canaknesil.com][www.canaknesil.com]]
 
 Hardware security researcher (PhD, KTH) specializing in power/EM and microarchitectural side-channel attacks, FPGA security, and compiler-level countermeasures (LLVM). Experienced in industry collaboration with Ericsson Research, teaching, and student supervision.
 
@@ -71,7 +72,7 @@ School of Electrical Engineering and Computer Science, Department of Electrical 
 - Machine learning modeling attacks on Physically Unclonable Functions (PUFs)
 
 *Intern* /(June 2019 – November 2019)/\\
-[[https://www.ericsson.com/en][Telefonaktiebolaget LM Ericsson]], Stockholm\\
+[[https://www.ericsson.com/en][Ericsson AB]], Stockholm\\
 High Performance Broadband/Radio Software Department
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Robust Header Compression (RoHC) for Profile 6 (TCP/IP)
@@ -83,7 +84,7 @@ Hardware Department
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Programmable clock generator chip, RF receiver chip, and RF transmitter chip programming via BeagleBone Black
 
-*Instructor* /(February 2017 – June 2017)/\\
+*Intern* /(February 2017 – June 2017)/\\
 [[https://it.ku.edu.tr][Koç University]], Istanbul\\
 IT Department\\
 Communication and Infrastructure Services
@@ -110,8 +111,6 @@ Technology Department
 - Cache simulator, in C /(During undergraduate study)/
 - Sound Transmission via Amplitude Modulation of Light, electronic circuit and simulation on PSpice /(During undergraduate study)/
 - Digital clock, on FPGA board using VHDL /(During undergraduate study)/
-
-A subset of my projects can be found [[https://github.com/canaknesil][here]].
 
 ** PROFESSIONAL SKILLS
 
