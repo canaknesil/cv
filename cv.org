@@ -63,7 +63,7 @@ Notre Dame de Sion French High School, Istanbul
 
 [[https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1958212&dswid=2918][Can Aknesil. "Protecting Remote FPGAs and Embedded Devices from Non-Invasive Physical Attacks". Doctoral Thesis, Royal Institute of Technology (KTH), Stockholm, Sweden. 2025.]]
 
-[[https://eprint.iacr.org/2025/673][Can Aknesil, Elena Dubrova, Niklas Lindskog, Jakob Sternby, Håkan Englund. "Hybrid Fingerprinting for Effective Detection of Cloned Neural Networks". Cryptology ePrint Archive, Paper 2025/673, 2025.]]
+[[https://eprint.iacr.org/2025/673][Can Aknesil, Elena Dubrova, Niklas Lindskog, Jakob Sternby, Håkan Englund. "Hybrid Fingerprinting for Effective Detection of Cloned Neural Networks". Cryptology ePrint Archive, Paper 2025/673. 2025.]]
 
 [[https://ieeexplore.ieee.org/document/11038304][Can Aknesil, Elena Dubrova, Niklas Lindskog, Jakob Sternby, Håkan Englund. "Hybrid Fingerprinting for Effective Detection of Cloned Neural Networks". 2025 IEEE 55th International Symposium on Multiple-Valued Logic (ISMVL). 2025.]]
 
@@ -79,7 +79,7 @@ Notre Dame de Sion French High School, Istanbul
 
 [[http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1460662][Can Aknesil. "An FPGA Implementation of Arbiter PUF with 4x4 Switch Blocks". Master's Thesis, Royal Institute of Technology (KTH), Stockholm, Sweden. 2020.]]
 
-[[https://www.canaknesil.com/docs/MAM_A_Memory_Allocation_Manager_for_GPUs.pdf][Can Aknesil and Didem Unat. "MAM: A Memory Allocation Manager for GPUs". 5. Ulusal Yüksek Başarımlı Hesaplama Konferansı, Istanbul, Turkey. September, 2017.]]
+[[https://www.canaknesil.com/docs/MAM_A_Memory_Allocation_Manager_for_GPUs.pdf][Can Aknesil and Didem Unat. "MAM: A Memory Allocation Manager for GPUs". 5. Ulusal Yüksek Başarımlı Hesaplama Konferansı, Istanbul, Turkey. September 2017.]]
 
 ** TALKS (excluding presentations of my own research at conferences)
 
@@ -95,7 +95,7 @@ Course: EP2780 Digital Forensics and Incident Response
 
 ** ACADEMIC SERVICE
 
-Usenix Security Program Committee member /(2027)/
+USENIX Security Program Committee member /(2027)/
 
 ** PROFESSIONAL EXPERIENCE
 
@@ -103,35 +103,72 @@ Usenix Security Program Committee member /(2027)/
 [[https://www.kth.se/en][KTH (Royal Institute of Technology)]], Stockholm\\
 School of Electrical Engineering and Computer Science\\
 Department of Network and Systems Engineering
+- [[https://eprint.iacr.org/2026/806][Spectre-type attacks observed through power side-channel analysis, without relying on dependent loads]]
+- [[https://ectopass.com/][Detection and mitigation of speculative side channels and constant-time violations at the compiler level, with LLVM]]
+- Side channels on multi-tenant GPUs
 
 *Doctoral Student* /(March 2021 – June 2025)/\\
 [[https://www.kth.se/en][KTH (Royal Institute of Technology)]], Stockholm\\
 School of Electrical Engineering and Computer Science\\
 Department of Electrical Engineering\\
 Division of Electronics and Embedded Systems
+- [[https://github.com/canaknesil/hybrid-fingerprinting-ext][Side-channel fingerprinting of neural networks]]
+- [[https://github.com/canaknesil/CircuitDisguise.jl][Malicious-circuit detection in cloud FPGAs without IP disclosure]]
+- [[https://github.com/canaknesil/fpga-em-sensor][Covert EM sensor implementations on FPGA]]
+- [[https://github.com/canaknesil/antenna-from-interconnect/][Covert antenna implementations on FPGA]]
+- [[https://github.com/canaknesil/rpi3-memory-leakage][EM side-channel analysis on general-purpose computers (Raspberry Pi)]]
+- Side-channel attacks on Xilinx Artix-7 FPGA bitstream encryption engine
+- Bitstream extraction from SPI flash communication
 
 *Research Engineer* /(June 2020 – January 2021)/\\
 [[https://www.kth.se/en][KTH (Royal Institute of Technology)]], Stockholm\\
 School of Electrical Engineering and Computer Science\\
 Department of Electrical Engineering\\
 Division of Electronics and Embedded Systems
+- Breaking Advanced Encryption Standard (AES) on FPGA via power side-channel attack combined with deep learning
+- Machine learning modeling attacks on Physically Unclonable Functions (PUFs)
 
 *Intern* /(June 2019 – November 2019)/\\
 [[https://www.ericsson.com/en][Telefonaktiebolaget LM Ericsson]], Stockholm\\
 High Performance Broadband/Radio Software Department
+- Robust Header Compression (RoHC) for Profile 6 (TCP/IP)
+- Interfacing C++ high-performance radio simulation libraries from Julia, using Cxx.jl
 
 *Intern* /(July 2017 – September 2017)/\\
 [[http://www.ctech.com.tr][CTech Bilişim Teknolojileri San. ve Tic. A.Ş.]], Istanbul\\
 Hardware Department
+- Programmable clock generator chip, RF receiver chip, and RF transmitter chip programming via BeagleBone Black
 
 *Mentor Student* /(February 2017 – June 2017)/\\
-[[https://it.ku.edu.tr][Koç University]], Instanbul\\
+[[https://it.ku.edu.tr][Koç University]], Istanbul\\
 IT Department\\
 Communication and Infrastructure Services
 
 *Intern* /(July 2016 – August 2016)/\\
 [[http://obss.com.tr][OBSS]], Istanbul\\
 Technology Department
+- HR job advert & application management web application, in Java
+
+
+** OTHER PROJECTS
+(From the most recent to the earliest)
+
+- [[https://github.com/canaknesil/go-game][Go (board game, not the programming language) computer game in Rust]] /(Independent)/
+- [[https://github.com/canaknesil/4x4-apuf][FPGA implementation and statistical analysis of Arbiter PUF with 4x4 Switch Blocks]] /(MSc Embedded Systems thesis, under the supervision of Elena Dubrova)/
+- Single-Event Upset Detector (SEUD) Experiment in [[https://mistsatellite.space/][the Miniature Student Satellite (MIST)]] /(MSc Embedded Systems final project)/
+- [[https://github.com/canaknesil/snowflake-with-cuda][CUDA Compilation Support for Snowflake DSL]] /(Computer Engineering Final Project)/
+- [[https://github.com/canaknesil/limon][Limon]]: A simple and powerful general-purpose programming language /(Independent)/
+- [[https://github.com/canaknesil/fpga-fir-filter-generator][FPGA C++ Framework for FIR Filtering Applications]] /(Electrical & Electronics Engineering Final Project)/
+- [[https://github.com/canaknesil/mam][MAM: A Memory Allocation Manager for GPUs]], in C, compatible with C++ and CUDA [[https://parcorelab.ku.edu.tr/][/(ParCoreLab)/]]
+- [[https://github.com/canaknesil/cannons-algorithm-mpi][Cannon’s matrix multiplication algorithm, in C, using MPI library]] /(Independent)/
+- Unix-style operating system shell, in C, on Linux /(During undergraduate study)/
+- Air traffic control simulator, in C++, using pthread.h library /(During undergraduate study)/
+- Cache simulator, in C /(During undergraduate study)/
+- Sound Transmission via Amplitude Modulation of Light, electronic circuit and simulation on PSpice /(During undergraduate study)/
+- Digital clock, on FPGA board using VHDL /(During undergraduate study)/
+
+A subset of my projects can be found [[https://github.com/canaknesil][here]].
+
 
 ** TEACHING EXPERIENCE
 
@@ -161,7 +198,7 @@ Course: EP2780 Digital Forensics and Incident Response
 [[https://eng.ku.edu.tr/en/][Koç University]], Istanbul\\
 - Comp200 Structure and Interpretation of Computer Programs /(Fall 2017)/
 
-*Section Leader* /(June 20 – 30, 2016)/\\
+*Section Leader* /(20 – 30 June 2016)/\\
 [[https://www.stanford.edu/][Stanford University]] & [[https://eng.ku.edu.tr/en/][Koç University]], Istanbul\\
 [[http://www.csbridge.org][CS Bridge Program]]
 
@@ -199,7 +236,7 @@ Hardware design & development\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - FPGA design and verification with VHDL and SystemVerilog
   (using Xilinx and Altera design tools)
-- Tcl scripting in Xilinx Vivado environment
+- Tcl scripting in the Xilinx Vivado environment
 - RTL synthesis with Yosys
 - Analysis of digital circuits
 
@@ -207,7 +244,7 @@ Embedded systems design & development\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Embedded real-time platform and software development with Nios II soft-processor and MicroC/OS
 - Embedded software development with Linux
-- Embedded software development directly on processor in AVR Assembly, MIPS Assembly, ARM Assembly, C, and C++
+- Embedded software development directly on the processor in AVR Assembly, MIPS Assembly, ARM Assembly, C, and C++
 - Fault-tolerant systems design
 
 High-performance computing (HPC)\\
@@ -218,86 +255,53 @@ Computer science\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Software engineering
 - Scientific programming
-- Machine Learning (supervised and unsupervised)
+- Machine learning (supervised and unsupervised)
 - Proficiency in Linux (daily use, system administration, driver and application development)
 - Compiler and interpreter design with Lex (Lexical Analyzer), Yacc (Parser), LLVM (Optimization development), and PLY (Python Lex-Yacc)
 - Version control with Git and Subversion
-- Build automation with GNU Make, and CMake
-- Proficiency in Office Programs
+- Build automation with GNU Make and CMake
+- Proficiency in Microsoft Office
 - LaTeX
 
 Programming/scripting languages\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - C, C++, Rust, Java, Julia, Python, Matlab, Lisp, Haskell, Bash, PowerShell, Tcl
 
-Various other areas I have experimented\\
+Various other areas I have experimented with\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - PCB design using KiCad
 - Mixed-signal IC design using Cadence Virtuoso
 - Image analysis and computer vision
-- Mobile application development for IOS (Objective – C) and Android (Java)
+- Mobile application development for iOS (Objective-C) and Android (Java)
 - Web development with HTML, JavaScript, CSS, PHP, Java EE, and Django
 - Database design with SQL and MongoDB
 - Circuit development for audio applications
 - Electronic circuit simulation with PSpice and LTspice
-- Emacs lisp programming
-- Linux server maintainance
+- Emacs Lisp programming
+- Linux server maintenance
 - Amateur radio (SA0NCA)
 
 ** LANGUAGE SKILLS
 
 *Turkish:* Native language
 
-*English:* IELTS in 2018 (Overall: 6.0, Listening: 6.0, Reading: 6.5, Writing: 5.0, Speaking: 5.5), TOEFL IBT in 2017 (Overall: 88, Listening: 27, Reading: 22, Writing: 22, Speaking: 17)
+*English:* IELTS in 2018 (Overall: 6.0, Listening: 6.0, Reading: 6.5, Writing: 5.0, Speaking: 5.5), TOEFL iBT in 2017 (Overall: 88, Listening: 27, Reading: 22, Writing: 22, Speaking: 17)
 
 *Swedish:* SFI Course C in 2021 (roughly corresponds to CEFR A2/A2+), KTH Swedish C1 for Employees in 2025
 
 *French:* DELF B2 in 2012 (Overall: 57.5/100, Listening: 11/25, Reading: 12.5/25, Writing: 18/25, Speaking: 16/25)
 
-** PROJECTS
-(From the most recent to the earliest)
-
-- Spectre attack via power side-channel analysis without dependent loads. /(KTH Postdoc)/
-- [[https://ectopass.com/][Detection and mitigation of speculative microarchitectural side channels with LLVM]] /(KTH Postdoc)/
-- [[https://github.com/canaknesil/hybrid-fingerprinting-ext][Hybrid fingerprinting (via power side-channel analysis) of neural networks]] /(Doctoral Study)/
-- [[https://github.com/canaknesil/go-game][Go (board game, not the programming language) computer game in Rust]] /(Independent)/
-- [[https://github.com/canaknesil/CircuitDisguise.jl][Circuit Disguise: Detecting Malicious Circuits in Cloud FPGAs without IP Disclosure]] /(Doctoral Study)/
-- [[https://github.com/canaknesil/fpga-em-sensor][Near-field EM sensor implementations in FPGA configurable fabric]] /(Doctoral Study)/
-- [[https://github.com/canaknesil/antenna-from-interconnect/][Covert antenna implementations on FPGA interconnect]] /(Doctoral Study)/
-- [[https://github.com/canaknesil/rpi3-memory-leakage][Side-channel attacks on memory operations of general purpose computers]] /(Doctoral Study)/
-- Side-channel attacks on Xilinx Artix-7 FPGA bitstream encryption engine /(Doctoral Study)/
-- Bitstream Extraction from SPI Flash Communication /(Doctoral Study)/
-- Breaking Advanced Encryption Standard (AES) on FPGA via power side-channel attack combined with deep learning /(KTH Employment)/
-- Machine Learning modeling attacks on Physically Unclonable Functions (PUFs) /(KTH Employment)/
-- [[https://github.com/canaknesil/4x4-apuf][FPGA implementation and statistical analysis of Arbiter PUF with 4x4 Switch Blocks]] /(MSc. Embedded Systems thesis, under the supervision of Elena Dubrova)/
-- Single-Event Upset Detector (SEUD) Experiment in [[https://mistsatellite.space/][the Miniature Student Satellite (MIST)]] /(MSc. Embedded Systems final project)/
-- Robust Header Compression (RoHC) for Profile 6 (TCP/IP) /(Ericsson internship)/
-- Interfacing C++ high-performance radio simulation libraries from Julia, using Cxx.jl /(Ericsson summer internship)/
-- [[https://github.com/canaknesil/snowflake-with-cuda][CUDA Compilation Support for Snowflake DSL]] /(Computer Engineering Final Project)/
-- [[https://github.com/canaknesil/limon][Limon]]: A simple and powerful general purpose programming language /(Independent)/
-- Programmable clock generator chip, RF receiver chip, and RF transmitter chip programming via BeagleBone Black /(CTech internship)/
-- [[https://github.com/canaknesil/fpga-fir-filter-generator][FPGA C++ Framework for FIR Filtering Applications]] /(Electrical & Electronics Engineering Final Project)/
-- [[https://github.com/canaknesil/mam][MAM: A Memory Allocation Manager for GPUs]], in C, compatible with C++ and CUDA [[https://parcorelab.ku.edu.tr/][/(ParCoreLab)/]]
-- HR Job Advert & Application Management Web Application, in Java /(OBSS Summer Internship)/
-- [[https://github.com/canaknesil/cannons-algorithm-mpi][Cannon’s matrix multiplication algorithm, in C, using MPI library]] /(Independent)/
-- Unix-style operating system shell, in C, on Linux /(During undergraduate study)/
-- Air traffic control simulator, in C++, using pthread.h library /(During undergraduate study)/
-- Cache simulator, in C /(During undergraduate study)/
-- Sound Transmission via Amplitude Modulation of Light, electronic circuit and simulation on PSpice /(During undergraduate study)/
-- Digital clock, on FPGA board using VHDL /(During undergraduate study)/
-
-A subset of my projects can be found [[https://github.com/canaknesil][here]].
 
 ** AWARDS
 
 - Vehbi Koç Scholar 2014, 2016
-- International mathematical competition named "Le Kangourou des mathématiques", 22th among 10627 participants, 2011
+- International mathematical competition named "Le Kangourou des mathématiques", 22nd among 10627 participants, 2011
 
 ** CONFERENCES & WORKSHOPS
 
 - [[http://www.fpgaworld.com/][FPGAworld Conference]] in Stockholm. /(2026)/
 - [[https://www.digitalfutures.kth.se/event/challenges-and-opportunities-of-pqc-deployment-workshop/][Challenges and Opportunities of PQC Deployment Workshop]]. /(2026)/
-- [[https://mvl.jpn.org/ISMVL2025/][IEEE 55st International Symposium on Multiple-Valued Logic (ISMVL)]]. Presented a research paper. /(2025)/
+- [[https://mvl.jpn.org/ISMVL2025/][IEEE 55th International Symposium on Multiple-Valued Logic (ISMVL)]]. Presented a research paper. /(2025)/
 - [[https://dsd-seaa.com/dsd2024/][27th Euromicro Conference Series on Digital System Design]]. Presented a research paper. /(2024)/
 - [[https://cysep.conf.kth.se/][Cybersecurity and Privacy (CySeP) Summer School]]. /(2024)/
 - [[https://raw.necst.it/][30th Reconfigurable Architectures Workshop (RAW)]]. Presented a research paper. /(2023)/
@@ -317,25 +321,25 @@ A subset of my projects can be found [[https://github.com/canaknesil][here]].
 - Training named "Sustainable Motivation" at Kariyer.Net /(2017)/
 - Training named "Gamification" at Kariyer.Net /(2017)/
 
-- Participated to workshop organized by NDS to "Istanbul Technical University Energy Institute Nuclear Researches Division". Observation of "ITU TRIGA Mark-II Training and Research Reactor". /(2012)/
+- Participated in a workshop organized by NDS to "Istanbul Technical University Energy Institute Nuclear Researches Division". Observation of "ITU TRIGA Mark-II Training and Research Reactor". /(2012)/
 
 
 ** HOBBIES & OTHER INTERESTS
 
-- Music: Piano, Oud (A Classical Turkish Musical Instrument), and Guitar
+- Music: Piano, oud (a classical Turkish instrument), and guitar
   # - London College of Music Piano Examinations, Grade 5
   # - Koç Orchestra, piano and keyboard, during 3 years. Performed 7 concerts
   # - Water Clock (band), keyboard, during 1 year. Performed 2 concert
 
-- Summer sports: Sailing, Windsurfing
+- Summer sports: Sailing, windsurfing
   # - Have an Amateur Yacht Captain License
   # - Participated to optimist courses at Ataköy Marine
   # - Participated to sailing education at Istanbul Sailing Club
   # - Officially licensed, intermediate level windsurfer registered with the Turkish Sailing Federation.
 
-- Tennis, Table tennis, Badminton
+- Tennis, table tennis, badminton
   # - Table tennis team member in Notre Dame de Sion (high school)
 
-- Winter sports: Skiing, Ice skating
+- Winter sports: Skiing, ice skating
 
 - Amateur radio (SA0NCA)
