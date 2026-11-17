@@ -25,11 +25,11 @@
 
 
 * CV -- Can Aknesil
-4 November 2026
+17 November 2026
 
 Kungliga Tekniska H\ouml{}gskolan, SE-100 44 STOCKHOLM\\
 aknesil at kth.se\\
-[[https://www.canaknesil.com][www.canaknesil.com]]
+[[https://www.canaknesil.com][www.canaknesil.com]] \hspace{1em} [[https://github.com/canaknesil][github.com/canaknesil]]
 
 ** EDUCATION
 
@@ -185,26 +185,23 @@ Course: EP2780 Digital Forensics and Incident Response
 
 ** PROFESSIONAL SKILLS
 
-Hardware security\\
+Hardware and computer security\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Power/EM side-channel attacks
 - Microarchitectural side-channel attacks
 - FPGA security
+- GPU security
 - Machine learning security
-
-Computer security\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
-- Machine learning security
-- Penetration testing
 - Networking and network security
+- Penetration testing
   
 Hardware design & development\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - FPGA design and verification with VHDL and SystemVerilog
-  (using Xilinx and Intel (Altera) design tools)
+  (using Xilinx and Altera design tools)
 - Tcl scripting in Xilinx Vivado environment
 - RTL synthesis with Yosys
-- Programmatic analysis of digital circuits
+- Analysis of digital circuits
 
 Embedded systems design & development\\
 #+ATTR_LATEX: :options [noitemsep, topsep=2pt]
@@ -222,7 +219,7 @@ Computer science\\
 - Software engineering
 - Scientific programming
 - Machine Learning (supervised and unsupervised)
-- Proficiency in Linux (personal use, system administration, driver and application development)
+- Proficiency in Linux (daily use, system administration, driver and application development)
 - Compiler and interpreter design with Lex (Lexical Analyzer), Yacc (Parser), LLVM (Optimization development), and PLY (Python Lex-Yacc)
 - Version control with Git and Subversion
 - Build automation with GNU Make, and CMake
@@ -261,7 +258,7 @@ Various other areas I have experimented\\
 (From the most recent to the earliest)
 
 - Spectre attack via power side-channel analysis without dependent loads. /(KTH Postdoc)/
-- Detection and mitigation of speculative microarchitectural side channels with LLVM. /(KTH Postdoc)/
+- [[https://ectopass.com/][Detection and mitigation of speculative microarchitectural side channels with LLVM]] /(KTH Postdoc)/
 - [[https://github.com/canaknesil/hybrid-fingerprinting-ext][Hybrid fingerprinting (via power side-channel analysis) of neural networks]] /(Doctoral Study)/
 - [[https://github.com/canaknesil/go-game][Go (board game, not the programming language) computer game in Rust]] /(Independent)/
 - [[https://github.com/canaknesil/CircuitDisguise.jl][Circuit Disguise: Detecting Malicious Circuits in Cloud FPGAs without IP Disclosure]] /(Doctoral Study)/
