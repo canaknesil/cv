@@ -5,6 +5,9 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 #+HTML_HEAD_EXTRA: <style>
+#+HTML_HEAD_EXTRA: @page {
+#+HTML_HEAD_EXTRA:   @bottom-center { content: counter(page); font-size: 8pt; font-family: "Source Sans 3", "Source Sans Pro", sans-serif; }
+#+HTML_HEAD_EXTRA: }
 #+HTML_HEAD_EXTRA: body{margin:0;background:#fff;color:#000;font-family:"Source Sans Pro","Source Sans 3",sans-serif;font-size:10pt;line-height:1.344}
 #+HTML_HEAD_EXTRA: #content{max-width:46.8em;margin:0 auto;padding:1in 1em 1.5in}
 #+HTML_HEAD_EXTRA: p{margin:0 0 8pt;text-indent:0;text-align:left}
