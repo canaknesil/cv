@@ -23,7 +23,7 @@ jobs:
           gh release create latest cv.html cv.pdf --title "Latest CV" --target "$GITHUB_SHA"
         env:
           GH_TOKEN: ${{ github.token }}
-      - run: mkdir site && cp cv.html cv.pdf site/
+      - run: mkdir site && cp cv.html cv.pdf photo.jpg site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
