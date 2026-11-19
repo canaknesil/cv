@@ -2,35 +2,9 @@
 #+AUTHOR: Can Aknesil
 #+OPTIONS: toc:nil author:nil date:nil num:nil title:nil
 
-#+LATEX_CLASS_OPTIONS: [10pt]
-#+LATEX_HEADER: \usepackage[default]{sourcesanspro}
-#+LATEX_HEADER: \usepackage[T1]{fontenc}
-#+LATEX_HEADER: \usepackage[utf8]{inputenc}
-#+LATEX_HEADER: \usepackage{fontawesome5}
-#+LATEX_HEADER: \renewcommand\familydefault{\sfdefault}
-#+LATEX_HEADER: \usepackage[left=1.0in,right=1.0in,top=1.0in,bottom=1.5in]{geometry}
-#+LATEX_HEADER: \usepackage{titlesec}
-#+LATEX_HEADER: \titleformat{\section}{\LARGE\sffamily\bfseries}{\thesection}{0.5em}{}[{\titlerule[0.4pt]}]
-#+LATEX_HEADER: \titlespacing*{\section}{0pt}{2ex}{1ex}
-#+LATEX_HEADER: \titleformat{\subsection}{\Large\sffamily\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
-#+LATEX_HEADER: \titlespacing*{\subsection}{0pt}{1.5ex}{1ex}
-#+LATEX_HEADER: \titleformat{\subsubsection}{\large\sffamily\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
-#+LATEX_HEADER: \usepackage{xcolor}
-#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, filecolor=blue}
-#+LATEX_HEADER: \usepackage{enumitem}
-#+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{8pt}
-#+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \setstretch{1.12}
-#+LATEX_HEADER: \setlength{\intextsep}{0pt} % Align the wrapped photo with the top of the header text
-#+LATEX_HEADER: \AtBeginDocument{\raggedright}
-#+LATEX_HEADER: \AtBeginDocument{\clubpenalty=10000}  % Prevents first line of paragraph at the bottom of a page
-#+LATEX_HEADER: \AtBeginDocument{\widowpenalty=10000} % Prevents last line of paragraph at the top of a page
-
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 #+HTML_HEAD_EXTRA: <style>
-#+HTML_HEAD_EXTRA: /* Mirrors the LaTeX header: 10pt Source Sans, 1in side margins (6.5in = 46.8em text width), \setstretch{1.12}, \parskip 8pt, \parindent 0 */
 #+HTML_HEAD_EXTRA: body{margin:0;background:#fff;color:#000;font-family:"Source Sans Pro","Source Sans 3",sans-serif;font-size:10pt;line-height:1.344}
 #+HTML_HEAD_EXTRA: #content{max-width:46.8em;margin:0 auto;padding:1in 1em 1.5in}
 #+HTML_HEAD_EXTRA: p{margin:0 0 8pt;text-indent:0;text-align:left}
@@ -57,25 +31,16 @@
 
 * Can Aknesil
 
-# Image wrapping doesn't work after header, so this juggling
-@@latex:\vspace{-10pt}@@
-@@latex:~@@
-#+ATTR_LATEX: :float wrap :width 0.18\textwidth :placement {r}{0.2\textwidth}
 #+ATTR_HTML: :class wrapright
 [[file:photo.jpg]]
 
-@@latex:\vspace{-18pt}@@
-@@latex:\faEnvelope@@
 @@html:<i class="fa-solid fa-envelope"></i>@@
 \_ [[mailto:aknesil@kth.se][aknesil@kth.se]]
-\_  @@latex:\faGithub@@
-@@html:<i class="fa-brands fa-github"></i>@@
-\_ [[https://github.com/canaknesil][github.com/canaknesil
-]]\_  @@latex:\faLinkedin@@
-@@html:<i class="fa-brands fa-linkedin"></i>@@
-\_ [[https://www.linkedin.com/in/can-aknesil-phd-831507a3/][LinkedIn
-]]\_  @@latex:\faGlobe@@
-@@html:<i class="fa-solid fa-globe"></i>@@
+\_  @@html:<i class="fa-brands fa-github"></i>@@
+\_ [[https://github.com/canaknesil][github.com/canaknesil]]
+\_  @@html:<i class="fa-brands fa-linkedin"></i>@@
+\_ [[https://www.linkedin.com/in/can-aknesil-phd-831507a3/][LinkedIn]]
+\_  @@html:<i class="fa-solid fa-globe"></i>@@
 \_ [[https://www.canaknesil.com/cv][Extended CV]]
 
 Hardware security researcher (PhD, KTH) working on power/EM and microarchitectural
@@ -86,7 +51,6 @@ side-channel attacks, FPGA and GPU security, and LLVM-based countermeasures. Exp
 *Postdoctoral Researcher* /(June 2025 – Present)/\\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
 School of Electrical Engineering and Computer Science, Department of Network and Systems Engineering
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - [[https://eprint.iacr.org/2026/806][Combined attacks with power and microarchitectural side channels]] 
 - [[https://ectopass.com/][Detection and mitigation of microarchitectural side channels in LLVM]]
 - Side channels on multi-tenant GPUs
@@ -95,7 +59,6 @@ School of Electrical Engineering and Computer Science, Department of Network and
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
 School of Electrical Engineering and Computer Science, Department of Electrical Engineering, Division of Electronics and Embedded Systems\\
 Industry collaboration with Ericsson Research (hybrid fingerprinting, FPGA EM sensor, covert antennas)
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - [[https://github.com/canaknesil/hybrid-fingerprinting-ext][Side-channel fingerprinting of neural networks]] (Ericsson collaboration) 
 - Covert [[https://github.com/canaknesil/fpga-em-sensor][EM sensor]] and [[https://github.com/canaknesil/antenna-from-interconnect/][antenna]] implementations on FPGA (Ericsson collaboration)
 - [[https://github.com/canaknesil/rpi3-memory-leakage][EM side-channel analysis on general-purpose computers (Raspberry Pi)]]
@@ -106,21 +69,18 @@ Industry collaboration with Ericsson Research (hybrid fingerprinting, FPGA EM se
 *Research Engineer* /(June 2020 – January 2021)/\\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
 School of Electrical Engineering and Computer Science, Department of Electrical Engineering, Division of Electronics and Embedded Systems
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Deep learning-based power side-channel analysis of AES on FPGA
 - Machine learning modeling attacks on Physically Unclonable Functions (PUFs)
 
 *Intern* /(June 2019 – November 2019)/\\
 [[https://www.ericsson.com/en][Ericsson AB]], Stockholm\\
 High Performance Broadband/Radio Software Department
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Robust Header Compression (RoHC) for Profile 6 (TCP/IP)
 - Interfacing C++ high-performance radio simulation libraries from Julia
 
 *Intern* /(July 2017 – September 2017)/\\
 [[http://www.ctech.com.tr][CTech Bilişim Teknolojileri San. ve Tic. A.Ş.]], Istanbul\\
 Hardware Department
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Embedded Linux development for millimeter wave wireless communication
 
 *Intern* /(February 2017 – June 2017)/\\
@@ -131,12 +91,10 @@ Communication and Infrastructure Services
 *Intern* /(July 2016 – August 2016)/\\
 [[http://obss.com.tr][OBSS]], Istanbul\\
 Technology Department
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - HR job advert & application management web application, in Java
 
 ** OTHER PROJECTS
 
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - [[https://github.com/canaknesil/4x4-apuf][FPGA implementation and statistical analysis of Arbiter PUF with 4x4 Switch Blocks]] /(MSc Embedded Systems thesis, under the supervision of Elena Dubrova)/
 - Single-Event Upset Detector (SEUD) Experiment in [[https://mistsatellite.space/][the Miniature Student Satellite (MIST)]] /(MSc Embedded Systems final project)/
 - [[https://github.com/canaknesil/snowflake-with-cuda][CUDA Compilation Support for Snowflake DSL]] /(Computer Engineering Final Project)/
@@ -154,7 +112,6 @@ Technology Department
 ** PROFESSIONAL SKILLS
 
 Hardware and computer security\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Power/EM side-channel attacks
 - Microarchitectural side-channel attacks
 - FPGA security
@@ -164,7 +121,6 @@ Hardware and computer security\\
 - Penetration testing
   
 Hardware design\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - FPGA design and verification with VHDL and SystemVerilog
   (using Xilinx Vivado and Intel/Altera Quartus)
 - Tcl scripting in the Xilinx Vivado environment
@@ -172,17 +128,14 @@ Hardware design\\
 - Analysis of digital circuits
 
 Embedded systems design\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Embedded real-time platform and software development with Nios II soft-processor and MicroC/OS
 - Embedded software development with Linux and baremetal in AVR, MIPS, ARM assembly, C, C++
 - Fault-tolerant systems design
 
 High-performance computing (HPC)\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Parallel programming with pthread library, MPI, and CUDA
 
 Computer science\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - C, C++, Rust, Java, Julia, Python, Matlab, Lisp, Haskell, Bash, PowerShell, Tcl
 - Git, Subversion, GNU Make, CMake
 - Software engineering
@@ -194,7 +147,6 @@ Computer science\\
 # - LaTeX
 
 Other\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - PCB design using KiCad
 - Mixed-signal IC design using Cadence Virtuoso
 - Image analysis and computer vision
@@ -278,18 +230,15 @@ USENIX Security Program Committee member /(2027)/
 *Course Development*\\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
 Developed the following lectures, associated laboratory exercises, and quizzes for EP2780 Digital Forensics and Incident Response, to be delivered in Fall 2026:
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Mobile Forensics
 - Physical Attacks & Hardware Trojans
 
 *Lecturer* /(Fall 2026)/\\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - EP2780 Digital Forensics and Incident Response /(Fall 2026)/
 
 *Teaching Assistant*\\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - IL1333/FIL3030 Hardware Security /(during doctoral studies)/
 - ID2218/FIL3200 Design of Fault-Tolerant Systems /(during doctoral studies)/
 - IL2203 Digital Design and Hardware Description Languages /(during doctoral studies)/
@@ -297,7 +246,6 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 
 *Undergraduate Teaching Assistant*\\
 [[https://eng.ku.edu.tr/en/][Koç University]], Istanbul\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Comp200 Structure and Interpretation of Computer Programs /(Fall 2017)/
 
 *Instructor* /(20 – 30 June 2016)/\\
@@ -308,13 +256,11 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 
 *Master's Student Supervision* \\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Federico Mercurio. Enhanced RAN Security Test Planning Through LLM-Driven Test Selection and Structured RAG Workflows. /(Spring 2026)/
 - Miguel Valgañón Soria. Reproducible and Relational Method for Detecting Constant-Time Violations in LLVM Optimization Passes. /(Spring 2026)/
 
 *Doctoral Student Supervision* \\
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Siyao Liu /(Spring 2026)/\\
   (In addition to the main and co-supervisors)
   
@@ -322,7 +268,6 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 ** PEDAGOGICAL TRAINING
 
 [[https://www.kth.se/en][KTH Royal Institute of Technology]], Stockholm\\
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - FLH3000 Basic Communication and Teaching, 3 credits
 - LH207V Doctoral Supervision, 3 credits (ongoing)
 
@@ -341,13 +286,11 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 
 ** AWARDS
 
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Vehbi Koç Scholar 2014, 2016
 - International mathematical competition named "Le Kangourou des mathématiques", 22nd among 10627 participants, 2011
 
 ** CONFERENCES & WORKSHOPS
 
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - [[http://www.fpgaworld.com/][FPGAworld Conference]] in Stockholm. /(2026)/
 - [[https://www.digitalfutures.kth.se/event/challenges-and-opportunities-of-pqc-deployment-workshop/][Challenges and Opportunities of PQC Deployment Workshop]]. /(2026)/
 - [[https://mvl.jpn.org/ISMVL2025/][IEEE 55th International Symposium on Multiple-Valued Logic (ISMVL)]]. Presented a research paper. /(2025)/
@@ -363,7 +306,6 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 - [[http://www.fpgaworld.com/][FPGAworld Conference]] in Stockholm. /(2018)/
 - [[http://www.basarim.org.tr][National High Performance Computing Conference (BAŞARIM)]] (Ulusal Yüksek Başarımlı Hesaplama Konferansı). Presented a research paper. /(2017)/
 
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Training named "Neuroscience for Leadership" at Kariyer.Net /(2017)/
 - Training named "Idea Production Techniques" at Kariyer.Net /(2017)/
 - Training named "Communication Mastery" at Kariyer.Net /(2017)/
@@ -375,7 +317,6 @@ Developed the following lectures, associated laboratory exercises, and quizzes f
 
 ** HOBBIES & OTHER INTERESTS
 
-#+ATTR_LATEX: :options [noitemsep, topsep=2pt]
 - Music: Piano, oud (a classical Turkish instrument), and guitar
   # - London College of Music Piano Examinations, Grade 5
   # - Koç Orchestra, piano and keyboard, during 3 years. Performed 7 concerts
