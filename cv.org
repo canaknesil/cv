@@ -44,7 +44,7 @@
 \_  @@html:<i class="fa-brands fa-linkedin"></i>@@
 \_ [[https://www.linkedin.com/in/can-aknesil-phd-831507a3/][LinkedIn]]
 \_  @@html:<i class="fa-solid fa-globe"></i>@@
-\_ [[https://www.canaknesil.com/cv][Extended CV]]
+\_ [[https://www.canaknesil.com/cv-page][Extended CV]]
 
 Hardware security researcher (PhD, KTH) working on power/EM and microarchitectural
 side-channel attacks, FPGA and GPU security, and LLVM-based countermeasures. Experienced in industry collaboration (Ericsson Research), teaching, and supervising students.
